@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="left">
+        <input type="text" class="input" placeholder="idInstance" id="idInstance">
+        <input type="text" class="input" placeholder="ApiTokenInstance" id="token">
+
+        <button class="button" id="getSettings">getSettings</button>
+        <button class="button button-last" id="callGetStateInstance">callGetStateInstance</button>
+
+        <input type="text" class="input" placeholder="phoneNumber" id="phoneNumber-1">
+        <textarea class="input text-message" id="textMessage">Hello</textarea>
+        <button class="button button-last" id="sendMessage">sendMessage</button>
+
+        <input type="text" class="input" placeholder="phoneNumber" id="phoneNumber-2">
+        <input type="text" class="input" placeholder="urlFile" id="urlFile">
+        <button class="button" id="sendFileByUrl">sendFileByUrl</button>
+    </div>
+    <div class="right">
+        <div class="answer">Ответ:</div>
+        <textarea class="text-answer" id="answer"></textarea>
+    </div>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
